@@ -1,4 +1,4 @@
-# lingling1211.github.io
+#TheLingLing.github.io
 
 This is my personal portfolio.
 
