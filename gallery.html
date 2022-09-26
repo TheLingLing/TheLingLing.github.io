@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">  	
+	  	
+	  	<title>Image Gallery</title>
+
+	  	<link href="css/bootstrap.min.css" rel="stylesheet">
+	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	  	<script src="js/gallery.js"></script>
+	  	<script src="https://unpkg.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+
+		<link href="css/gallery.css" rel="stylesheet">
+	</head>
+	<body>		
+		<nav class="navbar navbar-custom navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>                   
+					</button>
+					<a class="navbar-brand" href="index.html">Back to Portfolio</a>
+				</div>
+			</div>
+		</nav>
+		<div class="content-container" id="section0">
+			<!--<img id="logo-img" src="img/gallery/ArtofMTG.png"></img>-->
+			<p id="pageTitle">&nbsp; MTG Illustrations</p>
+		</div>
+		<div class="content-container" id="section1">
+			<div class="container-fluid" id="section1_left">
+				<div id="section1_left_cardContainer">
+					<p id="itemName"></p>
+					<p id="artistName"></p>
+					<p id="setName"></p>	
+				</div>
+				<div class="content-next_button">NEXT >></div>
+			</div>
+			<div class="container-fluid" id="section1_right" >
+			 	<div id="section1_right_artContainer">
+				</div>
+				<div class="content-prev_button"><< PREVIOUS</div>
+			</div>
+		</div>
+		<div class="content-container" id="section2">
+			<img src="img/gallery/GalleryArrowLeft_Delta.png" id="artThumbnail_leftbutton" ></img>
+			<img src="img/gallery/GalleryArrowRight_Delta.png" id="artThumbnail_rightbutton"></img>
+			<div class="container-fluid" >
+			</div>
+		</div>
+  	</body>
+</html>
